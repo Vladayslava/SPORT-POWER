@@ -97,12 +97,14 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    background-color: #f55804de;
+    box-shadow: 0 -2px 2px #3a3a3a;
 }
 
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #101010f7;
+    color: black;
 }
 
 

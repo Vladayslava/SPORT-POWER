@@ -16,6 +16,7 @@ body {
     /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
+
 }
 
 
@@ -44,6 +45,14 @@ header a {
     color: inherit;
 }
 
+a {
+    color:#252525;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
 
 #menu {
     font-size: 110%;
@@ -90,6 +99,13 @@ main {
     flex: 1 0 auto;
     margin-top: 47px;
 }
+
+#heder_classes > h1 {
+    margin: 0 auto; 
+    text-align: center;
+    margin-top: 20px;
+}
+
 /* Hero section */
 #hero {
     height: 600px;
@@ -114,7 +130,7 @@ main {
     background-color: rgba(255, 255, 255, 0.914);
     font-size: 130%;
     position: absolute;
-    bottom: 30px;
+    bottom: 20px;
     width: 80%;
     min-height: 200px;
     padding-top: 40px;
@@ -127,6 +143,30 @@ main {
     color: black;
 }
 
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}  
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 200%;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
@@ -164,11 +204,72 @@ main {
         margin-top: 79px;
     }
 
+    /* Blocks with location */
+    #first-rounded-block {
+        width: 45%;
+        height: 300px;
+        background-color: rgb(249, 209, 136);
+        border-radius: 20px;
+        margin: 20px;
+        display: inline-block;
+        padding: 40px; 
+        box-sizing: border-box;
+    }
+
+    #second-rounded-block {
+        width: 45%;
+        height: 300px;
+        background-color: white;
+        border-radius: 20px;
+        margin: 20px;
+        display: inline-block;
+        padding: 40px; 
+        box-sizing: border-box;
+    }
+
+    #contact a {
+        display: block; 
+        margin-bottom: 5px; 
+    }
+
+    #contact {
+        width: 45%;
+        height: 300px;
+    }
+
+
      /* Hero image */
      #cover-text {
         width: 300px;
         right: 50px;
+
     }
+
+    /* Reasons section */
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+#benefits-physical > div,
+#benefits-mental > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
 
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;

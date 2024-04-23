@@ -21,7 +21,7 @@ body {
 
 
 h1, h2, h3 {
-    font-family: 'Oswald', sans-serif;
+    font-family: inherit;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
@@ -42,7 +42,6 @@ header {
 
 header a {
     text-decoration: none;
-    color: inherit;
 }
 
 a {
@@ -56,8 +55,8 @@ a:hover {
 
 #menu {
     font-size: 110%;
-    letter-spacing: 4px;
     list-style-type: none;
+    font-weight: bold;
 }
 
 #menu > li {
@@ -95,9 +94,7 @@ nav {
 
 /* Main content */
 main {
-    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 47px;
 }
 
 #heder_classes > h1 {
@@ -108,11 +105,37 @@ main {
 
 /* Hero section */
 #hero {
-    height: 600px;
+    position: relative;
+    height: 500px;
     width: 100%;
-    background: url("../images/pexels-olly-3931374.jpg") no-repeat center center/cover;
+    background: url("../images/gym.jpg") no-repeat center center/cover;
 }
 
+#content{
+    background-color:rgba(0, 0, 0, 0.786);
+    max-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    padding: 25px;
+    position: absolute;
+    left: 2%;
+    line-height: 1.5;
+    bottom: 20px;
+}
+
+#content {
+    color: white; 
+}
+
+#content h1,
+#content h2,
+#content h3 {
+    font-family: inherit;
+    text-transform: none; 
+    letter-spacing: normal; 
+    color: inherit;
+}
 /* Blocks with location */
 #two_blocks{
     display: flex;
@@ -120,8 +143,7 @@ main {
 }
 #first-rounded-block,
 #second-rounded-block {
-    width: 90%;
-    height: 300px;
+    max-width: 50%;
     background-color: rgb(249, 209, 136);
     border-radius: 20px;
     margin: 20px;
@@ -203,6 +225,24 @@ main {
 hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
+}
+/* Smaller device (phone, tablet, 425 and down) */
+@media screen and (max-width: 425px) {
+    #hero {
+        background-position: left
+    }
+    #content{
+        width: 100%;
+        height: 100%;
+        max-width: none; 
+        left: 0; 
+        top: 0; 
+        padding: 30px;
+        border-radius: 0;
+    }
+    #content h1{
+        padding-top: 20%;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */

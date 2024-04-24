@@ -20,7 +20,7 @@ body {
 }
 h1, h2, h3 {
     font-family: inherit;
-    text-transform: uppercase;
+    text-transform: uppercase; 
     letter-spacing: 2px;
     color: #252525;
 }
@@ -106,6 +106,15 @@ main {
     left: 2%;
     line-height: 1.5;
     bottom: 20px;
+}
+/* main content on the lessons page */
+.section services wrapper{
+    max-width: 1160px;
+    margin-right: auto;
+}
+img {
+    max-width: 60%;
+    border-radius: 20px;
 }
 #content {
     color: white; 

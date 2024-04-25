@@ -18,12 +18,14 @@ body {
     font-family: 'Lato', sans-serif;
 
 }
+
 h1, h2, h3 {
     font-family: inherit;
     text-transform: uppercase; 
     letter-spacing: 2px;
     color: #252525;
 }
+
 /* Header */
 header {
     background-color: #f55804de;
@@ -36,27 +38,35 @@ header {
     justify-content: space-between;
     align-items: baseline;
 }
+
 header a {
     text-decoration: none;
 }
+
+
 a {
     color:#252525;
     text-decoration: none;
 }
+
 a:hover {
     color: red;
 }
+
 #menu {
     font-size: 110%;
     list-style-type: none;
     font-weight: bold;
 }
+
 #menu > li {
     margin-bottom: 1em;
 }
+
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
@@ -68,57 +78,58 @@ nav {
     display: none;
     top: 100%;
 }
+
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
+
 #nav-toggle {
     display: none;
 }
+
 .nav-toggle-label {
     font-size: 2rem;
 }
+
 /* Main content */
 main {
     flex: 1 0 auto;
 }
+
 #heder_classes > h1 {
     margin: 0 auto; 
     text-align: center;
     margin-top: 20px;
 }
+
 /* Hero section */
 #hero {
     position: relative;
     height: 500px;
     width: 100%;
     background: url("../images/gym.jpg") no-repeat center center/cover;
+    top: 5px;
 }
 /* Block advertising element in the picture */
 #content{
     background-color:rgba(0, 0, 0, 0.786);
-    max-width: 50%;
+    max-width: 30%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     border-radius: 20px;
-    padding: 25px;
     position: absolute;
-    left: 2%;
-    line-height: 1.5;
-    bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    top: 2em;
+    left: 2em;
 }
-/* main content on the lessons page */
-.section services wrapper{
-    max-width: 1160px;
-    margin-right: auto;
-}
-img {
-    max-width: 60%;
-    border-radius: 20px;
-}
+
 #content {
     color: white; 
 }
+
 #content h1,
 #content h2,
 #content h3 {
@@ -127,6 +138,7 @@ img {
     letter-spacing: normal; 
     color: inherit;
 }
+
 #membership-block{
     text-align: center;
     padding-top: 40px;
@@ -135,6 +147,7 @@ img {
     align-items: center;
     font-size: 25px;
 }
+
 #membership-block h2{
     text-transform: uppercase;
     font-size: 30px;
@@ -143,33 +156,39 @@ img {
     flex: 1;
     padding: 0 25px;
 }
+
 #benefits{
     flex: 2;
     align-items: start;
     display: flex;
 }
+
 #benefits ul {
     width: 40%;
     float: left;
     text-align: left;
     padding-left:30px;
 }
+
 #benefits li::marker {
-    color: #292980;
+    color: #222256;
     list-style-type: square;
 }
+
 /* Blocks with location */
 #two_blocks{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     align-items: stretch;
+    background: #222256;
 }
+
 #first-rounded-block,
 #second-rounded-block {
     flex-grow: 1;
     max-width: 50%;
-    background-color: rgb(249, 209, 136);
+    background-color: white;
     border-radius: 20px;
     margin: 20px;
     display: inline-block;
@@ -177,13 +196,15 @@ img {
     box-sizing: border-box;
     flex-wrap: wrap;
 }
+
 #details a,p,h2,h3 {
     display: block;
     margin-bottom: 10px;
 }
+
 /* Meetup Times section */
 #time{
-    background: rgba(255, 235, 52, 0.53);
+    background: #222256;
     display: flex;
     flex-wrap: wrap;
 }
@@ -194,6 +215,11 @@ img {
     flex-grow: 1;
     /* Creates a grid of meetup time divs over the background image */
     border: 2px solid white;
+    color: white;
+}
+
+h3{
+    color: white;
 }
 /* Footer */
 #social-networks {
@@ -205,6 +231,7 @@ img {
     background-color: #f55804de;
     box-shadow: 0 -2px 2px #3a3a3a;
 }
+
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
     background-color: rgba(255, 255, 255, 0.914);
@@ -216,31 +243,79 @@ img {
     padding-top: 40px;
     padding-left: 10px;
 }
+
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: black;
+    color: #252424;
 }
+
 #reasons {
     width: 90%;
     margin: 20px auto;
 }  
+
 #reasons h2 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 200%;
 }
+
 #benefits p {
     padding: 0 20px;
 }
+
 #benefits>div {
     line-height: 20px;
     margin-bottom: 20px;
 }
+
 hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
+/* Styling 2rd Page "CLASSES" */
+
+/* main content */
+.section services wrapper{
+    max-width: 1160px;
+    margin-right: auto;
+}
+img {
+     max-width: 90%; 
+    border-radius: 20px;
+}
+.service{
+    max-width: 70%;
+    padding: 30px;
+}
+.service:nth-child(2n) {
+    margin-left: auto;
+}
+.lessons_headings,.text {
+    margin-bottom: 20px;
+}
+.section_services_wrapper{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.text {
+    font-size: 20px;
+}
+
+/*----- << Styling 3rd Page "CONTACT US" >>----- */
+.contact_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .form_container {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 20px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.7);
+  }
 /* Smaller device (phone, tablet, 768 and down) */
 @media screen and (max-width: 768px) {
     #hero {
@@ -271,6 +346,13 @@ hr {
     #first-rounded-block,
     #second-rounded-block {
         max-width: 100%;
+    }
+    /* main content on the classes page */
+    .section_services_wrapper{
+        padding: 0;
+    }  
+    #heder_classes > h1 {
+    margin-top: 60px;
     }
 }
 

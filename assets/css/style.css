@@ -101,6 +101,7 @@ main {
     margin: 0 auto; 
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* Hero section */
@@ -277,10 +278,10 @@ hr {
 /* Styling 2rd Page "CLASSES" */
 
 /* main content */
-.section services wrapper{
-    max-width: 1160px;
-    margin-right: auto;
+.body_classes h2{
+    color: white;
 }
+
 img {
      max-width: 90%; 
     border-radius: 20px;
@@ -298,43 +299,67 @@ img {
 .section_services_wrapper{
     padding-left: 60px;
     padding-right: 60px;
+    background-color:#66818ff5;
+    display: flex;
+    flex-direction: column;
 }
 .text {
     font-size: 20px;
+    font-weight: bold;
+    color:white;
+
 }
 
 /*----- << Styling 3rd Page "CONTACT US" >>----- */
+.contact__page{
+background-color: #66818fa8;
+
+}
 .contact_form {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
   }
   .form_container {
-    /* transform: translate(-50%, -50%); */
     background-color: white;
     border-radius: 20px;
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.7);
     padding: 40px;
+    margin-top: 60px;
+    margin-bottom: 70px;
+    max-width: 800px;
+    background-color:#10b7d8;
+    font-family: sans-serif;
   }
   .sign-up_form {
     display: grid;
     grid-template-rows: repeat(8, 1fr);
     grid-template-columns: repeat(2, 1fr);
-    width: max-content;
     gap: 0.1rem;
   }
   .header_contact{
     grid-column: 1 / span 2;
     justify-self: center;
+    font-size: 1.3rem;
+    letter-spacing: 0.05rem;
   }
-  /* .text_input {
 
-  } */
+.text_input {
+    margin: 0.2rem 1rem;
+    padding: 1.8vh;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    width: 90%;
+    border-radius: 10px;
+    background-color: #e4f9fd;
+  } 
   .label_first_name {
     grid-row: 3;
     grid-column: 1;
     justify-self: center;
+    font-size: 1.3rem;
+    letter-spacing: 0.05rem;
+    padding-top: 20px;
 
   }
   .input_first_name {
@@ -347,6 +372,9 @@ img {
     grid-row: 4;
     grid-column: 1;
     justify-self: center;
+    font-size: 1.3rem;
+    letter-spacing: 0.05rem;
+    padding-top: 20px;
   }
 
   .input_last_name {
@@ -359,6 +387,9 @@ img {
     grid-row: 5;
     grid-column: 1;
     justify-self: center;
+    font-size: 1.3rem;
+    letter-spacing: 0.05rem;
+    padding-top: 20px;
   }
 
   .input_email {
@@ -371,6 +402,9 @@ img {
     grid-row: 6;
     grid-column: 1;
     justify-self: center;
+    font-size: 1.3rem;
+    letter-spacing: 0.05rem;
+    padding-top: 20px;
   }
   .input_phone_number{
     grid-row: 6;
@@ -381,6 +415,9 @@ img {
     grid-row: 7;
     grid-column: 1;
     justify-self: center;
+    font-size: 1.3rem;
+    letter-spacing: 0.05rem;
+    padding-top: 20px;
   }
   .input_message{
     grid-row: 7;
@@ -391,6 +428,17 @@ img {
     grid-row: 8;
     grid-column: 1 / span 2;
     justify-self: center;
+    align-self: center;
+    font-size: 1.4rem;
+    padding: 10px 20px;
+    background-color: #0797c4;
+  }
+
+  .contact_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
   }
 /* Smaller device (phone, tablet, 768 and down) */
 @media screen and (max-width: 768px) {
@@ -405,6 +453,7 @@ img {
         top: 0; 
         padding: 30px;
         border-radius: 0;
+        font-size: x-large;
     }
     #content h1{
         padding-top: 20%;
@@ -426,9 +475,25 @@ img {
     /* main content on the classes page */
     .section_services_wrapper{
         padding: 0;
+        flex-direction: column;
     }  
+    .service{
+        max-width: none;
+    }
     #heder_classes > h1 {
     margin-top: 60px;
+    }
+    /*----- << Styling 3rd Page "CONTACT US" >>----- */
+    .form_container{
+        max-width: 90%;
+        margin-bottom: 50px;
+    }
+    .button_submit{
+        margin-top: 20px;
+    }
+    .sign-up_form{
+    display: flex;
+    flex-direction: column;
     }
 }
 

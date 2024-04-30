@@ -6,15 +6,16 @@ Sport Power is a website created for those who strive for top results in their t
 
 ## Features
 + ### Navigation Bar
-  - At the top of the page, the navigation displays the name of the gym in the left corner: SPORT POWER, which is linked at the top of the page.
+  - At the top of the page, in the navigation bar in the left corner, the gym logo is displayed. On the right side, there are navigation links, namely:
+     * "Home" - leads to the homepage, where users can learn about the gym.
+     * "Classes" - leads to the page of classes and activities offered by the gym with a trainer.
+     * "Contact Us" - leads to the contact form page, where users can fill out a form to get in touch with the company or leave feedback. 
+   - Links have an animated effect when hovered.
+   -navigation simply explains to the user the name of the gym and classes, making the information easy to find.
 
-  - The remaining navigation links are on the right: “Home”, “Classes” and “Contact us”, which lead to different sections of the same page.
+ ![Navigation](documentation/header.jpg)
 
-  - The navigation is in a font similar to the information on this site and in a color that contrasts with the background.
-
-  - Navigation clearly communicates the name of the club to the user and makes it easy to find different sections of information.
-
- + ### The header
-
- ![Header](documentation/header.jpg)
-
+  + ### Home Page
+     - The header displays the name of the gym with its location and a short motivational advertisement for people who want to improve their health and appearance
+  
+   ![Navigation](documentation/home.jpg)

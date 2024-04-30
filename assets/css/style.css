@@ -115,7 +115,8 @@ main {
 /* Block advertising element in the picture */
 #content{
     background-color:rgba(0, 0, 0, 0.786);
-    max-width: 30%;
+    max-width: 40%;
+    font-size: larger;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
@@ -219,9 +220,7 @@ main {
     color: white;
 }
 
-h3{
-    color: white;
-}
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -278,10 +277,10 @@ hr {
 /* Styling 2rd Page "CLASSES" */
 
 /* main content */
-.body_classes h2{
+
+#time h3 {
     color: white;
 }
-
 img {
      max-width: 90%; 
     border-radius: 20px;
@@ -303,6 +302,40 @@ img {
     display: flex;
     flex-direction: column;
 }
+.lessons_headings h2{
+    color: white;
+}
+/* Button to Action */
+
+.button_to_action_text h2 {
+    color: black;
+}
+  .button_to_action_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem auto;
+  }
+  
+  .button_to_action_text {
+    padding: 4rem;
+    text-align: center;
+    letter-spacing: 0.1rem;
+  }
+  /*Styling Buttons*/
+  .btn {
+    display: inline-block;
+    padding: 0.7rem 1.3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    box-shadow: inset 0 -3px 0 1px #0f020b52;
+    background: #66818f94;
+  }
+  
+  /* Schedule */
 .text {
     font-size: 20px;
     font-weight: bold;
@@ -424,15 +457,20 @@ background-color: #66818fa8;
     grid-column: 2;
     justify-self: center;
   }
-  .button_submit{
-    grid-row: 8;
+    /*Styling 2 Button*/
+  .btn-special {
+    display: inline-block;
+    padding: 0.7rem 1.3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    box-shadow: inset 0 -3px 0 1px #0f020b52;
+    background: #66818f94;
     grid-column: 1 / span 2;
     justify-self: center;
     align-self: center;
-    font-size: 1.4rem;
-    padding: 10px 20px;
-    background-color: #0797c4;
-  }
+}
 
   .contact_form{
     display: flex;

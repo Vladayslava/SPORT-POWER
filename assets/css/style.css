@@ -50,7 +50,7 @@ a {
 }
 
 a:hover {
-    color: red;
+    color: white;
 }
 
 #menu {
@@ -126,9 +126,6 @@ main {
     padding: 2em;
     top: 2em;
     left: 2em;
-}
-
-#content {
     color: white; 
 }
 
@@ -202,6 +199,9 @@ main {
 #details a,p,h2,h3 {
     display: block;
     margin-bottom: 10px;
+}
+.club_details:hover{
+    color: red;
 }
 
 /* Meetup Times section */

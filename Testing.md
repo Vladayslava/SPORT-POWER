@@ -110,9 +110,9 @@
 + ### Solved bugs
   1. On the home page, the section with the information “What does membership include” was not placed correctly on mobile devices. All information was shifted to the left and the text was not visible.
 
-  Solutions: use display: block, so that the element is displayed as a block element, which occupies the entire available width of the horizontal space and starts on a new line. This means that a line break will be created after the element, so that any subsequent elements will appear below it.
+    Solutions: use display: block, so that the element is displayed as a block element, which occupies the entire available width of the horizontal space and starts on a new line. This means that a line break will be created after the element, so that any subsequent elements will appear below it.
 
-  2.No cursor when I hovered the mouse over the submit form button.
+  2. No cursor when I hovered the mouse over the submit form button.
 
   Solutions: use cursor: pointer, so that the cursor looks like a pointer, indicating that the element is clickable and can be clicked.
 

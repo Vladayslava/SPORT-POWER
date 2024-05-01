@@ -2,7 +2,7 @@
 
 Sport Power is a website created for those who strive for top results in their training programs. We aim to inspire and motivate people on the path to a healthy lifestyle by providing personalized approaches to strength training, cardio, and dance, as well as offering a wide range of group classes led by experienced instructors.
 
-![Mockup](documentation/photo_2024-04-29_15-37-40.jpg)
+![Mockup](documentation/Responcive.jpg)
 
 ## Features
 + ### Navigation Bar

@@ -477,13 +477,23 @@ background-color: #66818fa8;
     position: relative;
   }
   /*----- << Styling "RESPONSE" >>----- */
+.response__page {
+    background-color: #66818fa8;
+}
+.response__main {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
 .response{
     font-size: larger;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding-top: 10%;
+    padding: 5%;
+    max-width: 70%;
+    background-color: white;
+    border-radius: 20px;
+
 }
 .response p{
     font-size: 30px;
@@ -536,10 +546,11 @@ background-color: #66818fa8;
     display: flex;
     flex-direction: column;
     }
-    /* response */
+    /*----- << Styling Response Page >>----- */
     .response{
-        padding: 100px 20px 0px 20px;
+        font-size: medium;
     }
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */

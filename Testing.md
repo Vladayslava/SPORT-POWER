@@ -115,6 +115,9 @@
   2. No cursor when I hovered the mouse over the submit form button.
 
   Solutions: use cursor: pointer, so that the cursor looks like a pointer, indicating that the element is clickable and can be clicked.
+  
++ ### Unsolved bugs
+    - None.
 
 
 

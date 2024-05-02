@@ -73,3 +73,35 @@ Sport Power is a website created for those who strive for top results in their t
 
 Please refer to the [Testing.md](Testing.md) file for all test-related documentation.
 
+ 
+## Deployment
+
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+  - In the GitHub repository, navigate to the Settings tab
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found [here](https://8000-vladayslava-sportpower-5hxcvyf9sr8.ws-eu110.gitpod.io/)
+
+## Credits
+
++ #### Content
+
+  - inspired by the type of schedule writing by the project ["I love running"](https://code-institute-org.github.io/love-running-2.0/index.html)
+
+  - inspired by Juliia_Konn [repository](https://8000-iuliiakonov-animalshelt-hb8vbjzugdq.ws-eu110.gitpod.io/) in the contact us section block element.
+
++ #### Media
+  - All the images for the website were taken from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/)
+
+  - [Hero image](https://unsplash.com/photos/woman-in-black-tank-top-and-black-pants-exercising-0sa8D74iodI)
+  - CLASSES & LESSONS images
+    * [1 image](https://www.pexels.com/photo/women-keeping-fit-3984353/)
+    * [2 image](https://www.pexels.com/photo/group-of-women-dancing-during-a-dance-class-8957645/)
+    * [3 image](https://unsplash.com/photos/women-taking-exercise-on-black-stationary-bikes-in-front-of-gray-concrete-wall-A_ftsTh53lM)
+    * [4 image](https://www.pexels.com/photo/boxer-practicing-attack-in-gym-7991675/)
+    * [5 image](https://www.pexels.com/photo/people-doing-raised-hands-pose-in-yoga-class-8436587/)
+
+
